@@ -16,7 +16,8 @@
                   <ul class="nav navbar-nav">
                     <li class="active"><a href="index.jsp">Inicio</a></li>
                     <li><a href="cliente.jsp">Clientes</a></li>
-                    <li><a href="#">Serviços</a></li>
+                    <li><a href="servico.jsp">Serviços</a></li>
+                    <li><a href="#">Agenda</a></li>
                   </ul>
                 </div>
             </nav>

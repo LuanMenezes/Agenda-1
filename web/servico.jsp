@@ -15,25 +15,31 @@
                     </div>
                     <ul class="nav navbar-nav">
                         <li><a href="index.jsp">Inicio</a></li>
-                        <li class="active"><a href="cliente.jsp">Clientes</a></li>
-                        <li><a href="servico.jsp">Serviços</a></li>
+                        <li><a href="cliente.jsp">Clientes</a></li>
+                        <li class="active"><a href="servico.jsp">Serviços</a></li>
                         <li><a href="#">Agenda</a></li>
                     </ul>
                 </div>
             </nav>
-            <h1>Cadastro de Cliente!</h1>
+            <h1>Cadastro de Serviço!</h1>
             <form class="form-horizontal">
                 <div class="form-group">
-                    <label class="control-label col-sm-2" for="nome">Nome: </label>
+                    <label class="control-label col-sm-2" for="titulo">Titulo: </label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="nome">
+                        <input type="text" class="form-control" id="titulo">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="control-label col-sm-2" for="email">Email:</label>
+                    <label class="control-label col-sm-2" for="descricao">Descrição:</label>
                     <div class="col-sm-6">
-                        <input type="email" class="form-control" id="email">
+                        <input type="text" class="form-control" id="descricao">
                     </div>                    
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="preco">Preço: </label>
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control" id="preco">
+                    </div>
                 </div>
                 <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
