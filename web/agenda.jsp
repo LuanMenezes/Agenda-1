@@ -21,24 +21,39 @@
                     </ul>
                 </div>
             </nav>
-            <h1>Cadastro de Serviço!</h1>
+            <h1>Agendamento de Serviço!</h1>
             <form class="form-horizontal">
                 <div class="form-group">
-                    <label class="control-label col-sm-2" for="titulo">Titulo: </label>
+                    <label class="control-label col-sm-2" for="cli">Selecione um Cliente:</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="titulo">
+                        <select class="form-control" id="cli">
+                          <option>Teste 001</option>
+                          <option>Teste 002</option>
+                          <option>Teste 003</option>
+                          <option>Teste 004</option>
+                        </select>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="control-label col-sm-2" for="descricao">Descrição:</label>
+                    <label class="control-label col-sm-2" for="serv">Selecione um Serviço:</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="descricao">
-                    </div>                    
+                        <select class="form-control" id="serv">
+                          <option>Teste 001</option>
+                          <option>Teste 002</option>
+                          <option>Teste 003</option>
+                          <option>Teste 004</option>
+                        </select>
+                    </div>
                 </div>
                 <div class="form-group">
-                    <label class="control-label col-sm-2" for="preco">Preço: </label>
-                    <div class="col-sm-2">
-                        <input type="text" class="form-control" id="preco">
+                    <label class="control-label col-sm-2" for="hora">Selecione um Horario:</label>
+                    <div class="col-sm-6">
+                        <select class="form-control" id="hora">
+                          <option>Teste 001</option>
+                          <option>Teste 002</option>
+                          <option>Teste 003</option>
+                          <option>Teste 004</option>
+                        </select>
                     </div>
                 </div>
                 <div class="form-group">
