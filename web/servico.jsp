@@ -17,7 +17,7 @@
                         <li><a href="index.jsp">Inicio</a></li>
                         <li><a href="cliente.jsp">Clientes</a></li>
                         <li class="active"><a href="servico.jsp">Serviços</a></li>
-                        <li><a href="#">Agenda</a></li>
+                        <li><a href="agenda.jsp">Agenda</a></li>
                     </ul>
                 </div>
             </nav>

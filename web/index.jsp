@@ -17,7 +17,7 @@
                     <li class="active"><a href="index.jsp">Inicio</a></li>
                     <li><a href="cliente.jsp">Clientes</a></li>
                     <li><a href="servico.jsp">Serviços</a></li>
-                    <li><a href="#">Agenda</a></li>
+                    <li><a href="agenda.jsp">Agenda</a></li>
                   </ul>
                 </div>
             </nav>
@@ -27,6 +27,7 @@
                     <tr>
                         <th>Cliente</th>
                         <th>Serviço</th>
+                        <th>Horario</th>
                         <th>Ações</th>
                     </tr>
                 </thead>
@@ -34,11 +35,13 @@
                     <tr>
                         <td>Cristiano Inverno</td>
                         <td>Manutenção em Ar-Condicionado</td>
+                        <td>10:30</td>
                         <td><button class="btn btn-primary">Visualizar</button></td>
                     </tr>
                     <tr>
                         <td>Luan Menezes</td>
                         <td>Manutenção em Notebook</td>
+                        <td>10:35</td>
                         <td><button class="btn btn-primary">Visualizar</button></td>
                     </tr>
                 </tbody>
